@@ -15,10 +15,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView tvTest = findViewById(R.id.tv_color);
-        ColorPickerView colorPicker = findViewById(R.id.color_picker);
-        colorPicker.setOnColorChangeListener(color -> {
-            tvTest.setBackgroundColor(color);
-        });
+//        final TextView tvTest = findViewById(R.id.tv_color);
+//        ColorPickerView colorPicker = findViewById(R.id.color_picker);
+//        colorPicker.setOnColorChangeListener(color -> {
+//            tvTest.setBackgroundColor(color);
+//        });
     }
 }
